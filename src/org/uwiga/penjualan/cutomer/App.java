@@ -7,6 +7,7 @@ public class App {
 		MasterCustomerView View = new MasterCustomerView(Model);
 		MasterCustomerController controller = new MasterCustomerController(View, Model);
 		View.setVisible(true);
+		System.out.println("PERCOBAAN");
 	}
 
 }
